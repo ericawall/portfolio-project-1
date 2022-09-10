@@ -7,6 +7,20 @@
 }
 
 body {
-    font-family: Bubblegum Sans, sans serif;
+    font-family: Open Sans, sans serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* Headings & Logo */
+
+h1, h2 {
+    font-family: Bubblegum Sans, sans serif;
+    letter-spacing: 3px;
+    color: #c2a280;
+}
+
+#logo {
+    float: left;
+    font-size: 225%;
 }
