@@ -70,8 +70,9 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text-left h2, #cover-text-right h2 {
     color: #fff;
+    
 }
 
 #hero-image {
@@ -95,25 +96,60 @@ h1, h2 {
     }
 }
 
-#cover-text {
+#cover-text-left {
     font-size: 120%;
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
-    width: 275px;
+        width: 275px;
     height: 175px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(167, 134, 104, 0.6);
+    bottom: 90px;
+    left: 50px;
+    position: absolute;
 
+}
+#cover-text-right {
+    font-size: 120%;
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 275px;
+    height: 175px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(167, 134, 104, 0.6);
     bottom: 90px;
     right: 50px;
-
     position: absolute;
 }
+
+/* History section */
+
+ #history {
+    height: 1200px;
+ }
+
+ #left-history {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+ }
+
+ #right-history {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+ }
+
+ #center-history {
+    width: 33%;
+    margin: 0 auto;
+ }
+
+
 
 /* Footer */
 
