@@ -146,7 +146,6 @@ h1, h2 {
 #center-history {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 .left-history-heading {
@@ -171,6 +170,25 @@ h1, h2 {
 
 .right-history-heading p {
     text-align: right;
+}
+
+#info {
+    text-align: center;
+    margin: 5opx 0;
+    font-size: 200%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+#circle-container {
+    width: 275px;
+    height: 275px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c2a280;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 /* Footer */
