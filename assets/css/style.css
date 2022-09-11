@@ -72,7 +72,6 @@ h1, h2 {
 
 #cover-text-left h2, #cover-text-right h2 {
     color: #fff;
-    
 }
 
 #hero-image {
@@ -101,7 +100,7 @@ h1, h2 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-        width: 275px;
+    width: 275px;
     height: 175px;
     padding-top: 40px;
     padding-left: 10px;
@@ -128,28 +127,51 @@ h1, h2 {
 
 /* History section */
 
- #history {
-    height: 1200px;
- }
+#festival-history {
+    height: 600px;
+}
 
- #left-history {
+#left-history {
     padding-top: 30px;
     width: 33%;
     float: left;
- }
+}
 
- #right-history {
+#right-history {
     padding-top: 30px;
     width: 33%;
     float: right;
- }
+}
 
- #center-history {
+#center-history {
     width: 33%;
     margin: 0 auto;
- }
+    background-color: green;
+}
 
+.left-history-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
+.right-history-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-history-heading h3 {
+    text-align: right;
+}
+
+.right-history-heading p {
+    text-align: right;
+}
 
 /* Footer */
 
