@@ -61,17 +61,14 @@ h1, h2 {
     border-bottom: 2px solid #c2a280;
 }
 
-/* hero image */
+/* hero image section */
+/* BUG: cant get the box to properly align to page center */
 
 #hero-outer {
     height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-
-#cover-text-center h2{
-    color: #fff;
 }
 
 #hero-image {
@@ -94,43 +91,116 @@ h1, h2 {
         transform: scale(1.2);
     }
 }
+
 #cover-text-center {
     font-size: 120%;
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
     width: 275px;
     height: 175px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(129, 207, 224, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     top: 50%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
-    text-align: center;
-    position: absolute;
-}
-#cover-text-left {
-    font-size: 120%;
-    font-family: Open Sans, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 275px;
-    height: 175px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(167, 134, 104, 0.6);
-    bottom: 90px;
-    left: 50px;
+    margin-top: -90px;
+    margin-left: -90px;
     position: absolute;
 }
 
-#cover-text-center h2{
+#cover-text-center h2 {
     color: #fff;
 }
 
-/* News section */
+#cover-text-center h3 {
+    color: #fff;
+}
+
+/* How to sandsculpt section */
+
+#how-to-sandsculpt {
+    height: 550px;
+    padding-top: 30px;
+}
+
+#info {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#left-sandsculpt {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-sandsculpt {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-sandsculpt {
+    width: 33%;
+    margin: 0 auto;
+} 
+
+hr {
+    border: 1px solid #3a3a3a;
+}
+
+.left-sandsculpt-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-sandsculpt-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#left-sandsculpt p {
+    line-height: 20px;
+    font-size: 85%;
+}
+
+.right-sandsculpt-heading h3 {
+    text-align: right;
+}
+
+#right-sandsculpt p {
+    line-height: 20px;
+    text-align: right;
+    font-size: 85%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c2a280;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url(../images/how-to-sandsculpture-image.webp) no-repeat center center ;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* News section 
 
 #news {
     color: #3a3a3a;
@@ -140,6 +210,7 @@ h1, h2 {
     text-align: center;
     margin: 0 auto;    
 }
+*/
 
 /* Timetable section */
 
@@ -168,8 +239,9 @@ h1, h2 {
 /* History section */
 
 #festival-history {
-    height: 500px;
-    padding-top: 30pxS;
+    height: 600px;
+    padding-top: 30px;
+    
 }
 
 #left-history {
@@ -179,7 +251,7 @@ h1, h2 {
 }
 
 #left-history p {
-    line-height: 25px;
+    line-height: 20px;
 }
 
 #right-history {
@@ -189,7 +261,7 @@ h1, h2 {
 }
 
 #right-history p {
-    line-height: 25px;
+    line-height: 20px;
 }
 
 #center-history {
