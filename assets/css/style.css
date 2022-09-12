@@ -228,13 +228,17 @@ h1, h2 {
     border-radius: 50%;
 }
 
-#festival-now {
-    padding-left: 33%;
-    padding-right: 33%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+#media h3 {
     text-align: center;
-    color: #3a3a3a;
+    margin: 50px 0;
+    font-family: Op;
+}
+
+iframe.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
 }
 /* Footer */
 
@@ -352,21 +356,6 @@ hr {
 
 #photos > img {
     width: 100%;
-}
-
- #media {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 150%;
-    font-family: Bubblegum Sans, sans serif;
-    letter-spacing: 1px;
-    color: #c2a280;
- }
-iframe.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
 }
 
 /* Media queries */
