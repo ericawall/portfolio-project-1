@@ -70,7 +70,7 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text-left h2, #cover-text-right h2 {
+#cover-text-center h2{
     color: #fff;
 }
 
@@ -81,7 +81,7 @@ h1, h2 {
 
 /* Animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -91,10 +91,26 @@ h1, h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
 }
-
+#cover-text-center {
+    font-size: 120%;
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 275px;
+    height: 175px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(129, 207, 224, 0.6);
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    position: absolute;
+}
 #cover-text-left {
     font-size: 120%;
     font-family: Open Sans, sans-serif;
@@ -108,21 +124,10 @@ h1, h2 {
     bottom: 90px;
     left: 50px;
     position: absolute;
-
 }
-#cover-text-right {
-    font-size: 120%;
-    font-family: Open Sans, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 275px;
-    height: 175px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(167, 134, 104, 0.6);
-    bottom: 90px;
-    right: 50px;
-    position: absolute;
+
+#cover-text-center h2{
+    color: #fff;
 }
 
 /* News section */
