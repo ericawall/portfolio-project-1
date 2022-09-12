@@ -228,17 +228,21 @@ h1, h2 {
     border-radius: 50%;
 }
 
-#media h3 {
+/* Video */
+#media {
     text-align: center;
-    margin: 50px 0;
-    font-family: Op;
+    margin: 30px 0;
+    font-family: Open Sans, sans-serif;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 iframe.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 /* Footer */
 
