@@ -65,14 +65,14 @@ h1, h2 {
 /* BUG: cant get the box to properly align to page center */
 
 #hero-outer {
-    height: 400px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 
@@ -98,19 +98,18 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    width: 275px;
-    height: 175px;
+    
+    width: 300px;
+    height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.4);
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
     
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    bottom: 70px;
+    right: 600px;
+
+    position: absolute;
 }
 
 #cover-text-center h2 {
@@ -239,6 +238,17 @@ hr {
 
 }
 
+/* new history section */
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
 /* History section */
 
 #festival-history {
