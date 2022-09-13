@@ -15,24 +15,55 @@
 
 <!-- Header, logo & nav bar section -->
    <header>
-    <a href="home.html">
-        <h1 id="logo">Duncannon Sand Sculpture Festival</h1>
-        <nav>
-            <ul id="menu">
-                <li>
+        <a href="home.html">
+            <h1 id="logo">Duncannon Sand Sculpture Festival</h1>
+            <nav>
+                <ul id="menu">
+                    <li>
                     <a href="home.html" class="active">Home</a>
-                </li>
-                <li>
+                    </li>
+                    <li>
                     <a href="gallery.html" class="active">Gallery</a>
-                </li>
-                <li>
+                    </li>
+                    <li>
                     <a href="contact.html" class="active">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </a>
-</header>
-    <section></section>
+                    </li>
+                </ul>
+            </nav>
+        </a>
+    </header>
+
+    <!-- contact form section -->
+    <section class="form-section">
+        <div class="contact-form">
+            <h2 id="info">Get in touch!</h2>
+            <p>To join our mailing list, and to be entered into a draw to win 2023 festival weekend hotel accomodation for 4, 
+                please complete the form below:</p><br>
+            <!-- form inputs -->
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <div>
+                    <h4>First Name</h4>
+                    <label id="name-field" placeholder="Your first name" for="name-field"></label>
+		            <input id="name-field" type="text">
+                </div> 
+                <div >
+                    <h4>Last Name</h4>   
+                    <label id="name-field" placeholder="Your last name" for="name-field"></label>
+		            <input id="name-field" type="text">
+                </div>
+                <div > 
+                    <h4>Email Address</h4>
+                    <label id="email-field" placeholder="Your email" for="email-field"></label>
+		            <input id="email-field" type="email">
+                </div>
+                <div >
+		            <input type="submit" value="Submit">
+                </div>
+	        </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
     <footer></footer>
 </body>
 </html>
