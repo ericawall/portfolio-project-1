@@ -261,13 +261,13 @@ iframe.center {
     padding-bottom: 100px;
 }
 
-/* Timetable section */
-#timeline {
+/* Pricing section */
+#pricing {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-#timetable {
+#price {
     background-image: url(../images/timetable-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -276,7 +276,7 @@ iframe.center {
     overflow: hidden;
 }
 
-#timetable div {
+#price div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.6);
     width: 25%;
