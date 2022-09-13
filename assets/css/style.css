@@ -57,13 +57,8 @@ h1, h2 {
     border-bottom: 2px solid #c2a280;
 }
 
-.active {
-    border-bottom: 2px solid #c2a280;
-}
 
 /* hero image section */
-/* BUG: cant get the box to properly align to page center */
-
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -88,7 +83,7 @@ h1, h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.2);
+        transform: scale(1.3);
     }
 }
 
@@ -106,7 +101,7 @@ h1, h2 {
     
     background-color: rgba(0, 0, 0, 0.4);
     
-    bottom: 70px;
+    bottom: 100px;
     right: 600px;
 
     position: absolute;
@@ -120,141 +115,10 @@ h1, h2 {
     color: #fff;
 }
 
-/* How to sandsculpt section */
-
-#how-to-sandsculpt {
-    height: 550px;
-    padding-top: 30px;
-}
-
-#info {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
-}
-
-#left-sandsculpt {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-sandsculpt {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-sandsculpt {
-    width: 33%;
-    margin: 0 auto;
-} 
-
-hr {
-    border: 1px solid #3a3a3a;
-}
-
-.left-sandsculpt-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-sandsculpt-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#left-sandsculpt p {
-    line-height: 20px;
-    font-size: 85%;
-}
-
-.right-sandsculpt-heading h3 {
-    text-align: right;
-}
-
-#right-sandsculpt p {
-    line-height: 20px;
-    text-align: right;
-    font-size: 85%;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #c2a280;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url(../images/how-to-sandsculpture-image.webp) no-repeat center center ;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/* News section 
-
-#news {
-    color: #3a3a3a;
-    width: 80%;
-    height: 150px;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    margin: 0 auto;    
-}
-*/
-
-/* Timetable section */
-
-#timetable {
-    background-image: url(../images/timetable-img.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#timetable div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 25%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-
-}
-
-/* new history section */
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
 /* History section */
 
-#festival-history {
-    height: 600px;
-    padding-top: 30px;
-    
+#history {
+    padding-top: 50px;
 }
 
 #left-history {
@@ -356,7 +220,7 @@ hr {
 /* Video */
 #media {
     text-align: center;
-    margin: 30px 0;
+    margin: 20px auto;
     font-family: Open Sans, sans-serif;
     color: #3a3a3a;
     letter-spacing: 1px;
@@ -369,7 +233,110 @@ iframe.center {
     margin-right: auto;
     padding-bottom: 75px;
 }
-/* Footer */
+
+/* Timetable section */
+#timetable {
+    background-image: url(../images/timetable-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#timetable div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+/* How to sandsculpt section */
+#how-to-sandsculpt {
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+
+#info {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#left-sandsculpt {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-sandsculpt {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-sandsculpt {
+    width: 33%;
+    margin: 0 auto;
+} 
+
+hr {
+    border: 1px solid #3a3a3a;
+}
+
+.left-sandsculpt-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-sandsculpt-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#left-sandsculpt p {
+    line-height: 20px;
+}
+
+.right-sandsculpt-heading h3 {
+    text-align: right;
+}
+
+#right-sandsculpt p {
+    line-height: 20px;
+    text-align: right;
+   
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c2a280;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url(../images/how-to-sandsculpture-image.webp) no-repeat center center ;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 
 
