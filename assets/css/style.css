@@ -343,110 +343,6 @@ hr {
     border-radius: 50%;
 }
 
-
-
-
-#footer {
-    height: 600px;
-    font-size: 110%;
-    letter-spacing: 2px;
-    float: auto;
-    text-transform: none;
-}
-
-#footer a {
-    text-decoration: none;
-    color: inherit;
-    list-style-type: none;
-}
-
-#footer li {
-    list-style-type: none;
-    line-height: 75px;
-}
-
-#left-footer {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    font-size: 75%;
-}
-
-#left-footer h3 {
-    font-family: Bubblegum Sans, sans serif;
-    letter-spacing: 1px;
-    color: #c2a280;
-    font-size: 150%;
-}
-
-#right-footer {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    color: blue;
-}
-
-#right-footer h3 {
-    font-family: Bubblegum Sans, sans serif;
-    letter-spacing: 1px;
-    color: #c2a280;
-    text-align: left;
-}
-
-#right-footer .active {
-    border-bottom: 2px none;
-}
-
-#center-footer {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-    color: #c2a280;
-}
-
-#center-footer h3 {
-    font-family: Bubblegum Sans, sans serif;
-    letter-spacing: 1px;
-    color: #c2a280;
-}
-hr {
-    border-top: 1px none;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-footer-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-footer-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;    
-}
-
-.center-footer-heading {
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-}
-
-.socials > li {
-   line-height: 75px;
-   padding-top: 20px;
-   padding-left: 30px;
-}
-
-.socials i {
-    font-size: 200%;
-}
-
 /* Gallery*/
 
 #photos {
@@ -474,7 +370,7 @@ hr {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -493,21 +389,32 @@ hr {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    
 }
 
-.text-input:hover {
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+input:hover {
     border-color: #c2a280;
 }
 
-.text-area > feedback {
-    padding-bottom: 10px;
-}
+input[type=submit]{
+    background-color: #c2a280;
+    border: none;
+    color: #3a3a3a;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
-.field-style {
-    background: transparent;
-    width: 100%;
-}
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -523,43 +430,7 @@ hr {
     background-color: #fafafa;
 }
 
-/* Media queries */
-
-/* for larger and medium screens size from 1200px wide and down */
-@media screen and (max-width:1200px) {
-    #footer {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #left-footer, #right footer {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-footer {
-        clear: both;
-        width: 100%;
-        float: left;
-    }
-}
-
-/* for medium screens size from 950px wide and down */
-@media screen and (max-width:950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}
-
 /* Footer */
-/*normal, curved?*/
-
 /* moving waves */
 .footer {
     position: relative;
@@ -676,4 +547,43 @@ hr {
       background-positon-x: 0px;
     }
   }
+
+
+
+
+/* Media queries */
+
+/* for larger and medium screens size from 1200px wide and down */
+@media screen and (max-width:1200px) {
+    #footer {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-footer, #right footer {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-footer {
+        clear: both;
+        width: 100%;
+        float: left;
+    }
+}
+
+/* for medium screens size from 950px wide and down */
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
+
 
