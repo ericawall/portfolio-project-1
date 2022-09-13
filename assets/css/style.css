@@ -146,6 +146,12 @@ h1, h2 {
     margin: 0 auto;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
 .left-history-heading {
     width: 60%;
     float: right;
@@ -231,6 +237,7 @@ h1, h2 {
     color: #3a3a3a;
     letter-spacing: 1px;
     line-height: 25px;
+    
 }
 
 iframe.center {
@@ -241,6 +248,11 @@ iframe.center {
 }
 
 /* Timetable section */
+#timeline {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 #timetable {
     background-image: url(../images/timetable-img.webp);
     background-repeat: no-repeat;
@@ -265,8 +277,7 @@ iframe.center {
 /* How to sandsculpt section */
 #how-to-sandsculpt {
     height: 600px;
-    padding-top: 30px;
-    padding-bottom: 75px;
+    padding-bottom: 100px;
 }
 
 #info {
@@ -291,10 +302,6 @@ iframe.center {
     width: 33%;
     margin: 0 auto;
 } 
-
-hr {
-    border: 1px solid #3a3a3a;
-}
 
 .left-sandsculpt-heading {
     width: 60%;
@@ -367,10 +374,10 @@ hr {
 }
 
 .contact-form {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 500px;
+    max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -413,20 +420,10 @@ input[type=submit]{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    width: 100%;
   }
 
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #c2a280;
-    color: transparent;
-    display: block;
-}
-
-.join-button:hover {
+input[type=submit]:hover {
     background-color: #fafafa;
 }
 
@@ -444,33 +441,31 @@ input[type=submit]{
     flex-direction: column;
   }
   
-  .social-icon,
-  .menu {
+.social-icon, .menu {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
-  }
+}
   
-  .social-icon__item,
-  .menu__item {
+.social-icon__item, .menu__item {
     list-style: none;
   }
   
-  .social-icon__link {
+.social-icon__link {
     font-size: 2rem;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
-  }
-  .social-icon__link:hover {
+}
+.social-icon__link:hover {
     transform: translateY(-10px);
-  }
+}
   
-  .menu__link {
+.menu__link {
     font-size: 1.2rem;
     color: #fff;
     margin: 0 10px;
@@ -479,20 +474,20 @@ input[type=submit]{
     text-decoration: none;
     opacity: 0.75;
     font-weight: 300;
-  }
+}
   
-  .menu__link:hover {
+.menu__link:hover {
     opacity: 1;
-  }
+}
   
-  .footer p {
+.footer p {
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
-  }
+}
   
-  .wave {
+.wave {
     position: absolute;
     top: -100px;
     left: 0;
@@ -500,53 +495,53 @@ input[type=submit]{
     height: 100px;
     background: url("https://i.ibb.co/wQZVxxk/wave.png");
     background-size: 1000px 100px;
-  }
+}
   
-  .wave#wave1 {
+.wave#wave1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
   
-  .wave#wave2 {
+.wave#wave2 {
     z-index: 999;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
-  }
+}
   
-  .wave#wave3 {
+.wave#wave3 {
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
-  }
+}
   
-  .wave#wave4 {
+.wave#wave4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
-  }
+}
   
-  @keyframes animateWaves {
+@keyframes animateWaves {
     0% {
       background-position-x: 1000px;
     }
     100% {
       background-positon-x: 0px;
     }
-  }
+}
   
-  @keyframes animate {
+@keyframes animate {
     0% {
       background-position-x: -1000px;
     }
     100% {
       background-positon-x: 0px;
     }
-  }
+}
 
 
 
