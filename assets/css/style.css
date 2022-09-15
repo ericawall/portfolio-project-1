@@ -138,59 +138,34 @@ h1, h2 {
     font-size: small;
 }
 
-/*#location {
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    height: 500px;
-    width: 100%;
-}
 
-#left-map {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    width: 30%;
-    
-}
-
-#right-map {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    width: 60%;
-}
-
-#map-container {
-    width: 480px;
-    height: 340px;
-    margin: 0 auto;
-}
-
-#map-legend {
-    background: url(../images/festival-map.webp) no-repeat center center ;
-    height: 50%;
-    width: 50%;
-}
-
-/* Timetable section 
-#timetable {
-    width: 100%;
-    display: inline-flex;
-}
+/* Timetable section */
 
 #schedule {
-    height: 600px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#timetable {
+    background-image: url(../images/timetable-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#timetable div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 25%;
+    height: 600px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: none;
+    border: 2px solid white;
     box-sizing: border-box;
-
-}*/
+}
 
 /* History section */
 #history {
