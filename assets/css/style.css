@@ -120,12 +120,12 @@ h1, h2 {
 #inner-wrapper {
     float: left;
     width: 100%;
-    height: 300px;
     background-color: white;
     padding-top: 30px;
+    position: relative;
 }
 
-#castle { 
+#castle {
     font-size: 700%;
     text-align: center;
     min-height: 300px;
@@ -135,21 +135,25 @@ h1, h2 {
     padding-top: 20px;
 }
      
-#castle i { 
-    color: #c2a280; 
+#castle i {
+    color: #c2a280;
 }
 
 #overview {
     width: 50%;
     padding-left: 50px;
     padding-top: 40px;
+    position: relative;
+    text-align: center;
 }
 
 /* Timetable section */
 
 #schedule {
+    position: relative;
     padding-top: 40px;
-    padding-bottom: 60px;
+    /*padding-bottom: 60px;*/
+    
 }
 
 #timetable {
@@ -600,21 +604,34 @@ input[type=submit]:hover {
 
 /* for larger and medium screens size from 1200px wide and down */
 @media screen and (max-width:1200px) {
+
+    #hero-outer {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: bottom;
+    }
     #how-to-sandsculpt, #history {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #info {
+    #inner-wrapper {
+        width: 65%;
         padding: 30px 0;
         margin: 0;
+    }
+
+    #castle, #overview {
+        clear: both;
     }
     
     #left-sandsculpt, #right-sandsculpt, #left-history, #right-history  {
         width: 100%;
         float: left;
         padding: 0;
+        text-align: center;
     }
 
     #center-sandsculpt, #center-history {
@@ -628,6 +645,9 @@ input[type=submit]:hover {
         display: none;
     }
 
+    #inner-wrapper {
+        white-space: normal;
+    }
     #timetable > div {
         width: 100%;
         clear: both;
@@ -688,6 +708,10 @@ input[type=submit]:hover {
     iframe.center {
         width: 75%;
         height: 900px;     
+    }
+
+    .contact-form {
+       left: 0;
     }
 }
 
