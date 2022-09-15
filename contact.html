@@ -29,7 +29,7 @@
                     <a href="history.html" class="active">History</a>
                 </li>
                 <li>
-                    <a href="sign-up.html" class="active">Contact</a>
+                    <a href="contact.html" class="active">Get Involved!</a>
                 </li>
             </ul>
         </nav>
@@ -39,8 +39,8 @@
 <!-- contact form section -->
 <section class="form-section">
     <div class="contact-form">
-        <h2 id="info">Get in touch</h2>
-        <p>Please complete the form to register your interest. If you are a professional artist, 
+        <h2 id="info">Get involved!</h2>
+        <p>Complete this form to register your interest. If you are a professional artist, 
             please attach some photos of recent work</p><br>
         <!-- form inputs -->
         <form action="https://formdump.codeinstitute.net" method="POST">
@@ -58,6 +58,16 @@
                 <h4>Email Address</h4>
                 <label id="email-field" placeholder="Your email" for="email-field"></label>
                 <input id="email-field" type="email">
+            </div>
+            <div>
+                <input id="professional-radio" name="interested" value="professional" type="radio">
+                    <label for="professional-radio">Professional Artist</label>
+
+                <input id="amateur-radio" name="interested" value="amateur" type="radio">
+                    <label for="amateur-radio">Amateur</label>
+
+                <input id="volunteer-radio" name="interested" value="volunteer" type="radio">
+                    <label for="volunteer-radio">Volunteer</label>
             </div><br>
             <div>
                 <form action="/action_page.php">
