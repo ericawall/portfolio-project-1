@@ -173,6 +173,83 @@ h1, h2 {
     box-sizing: border-box;
 }
 
+/* How to sandsculpt section */
+#how-to-sandsculpt {
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+#info {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#left-sandsculpt {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    
+}
+
+#right-sandsculpt {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-sandsculpt {
+    width: 33%;
+    margin: 0 auto;
+} 
+
+.left-sandsculpt-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-sandsculpt-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#left-sandsculpt p {
+    line-height: 20px;
+    text-align: left;
+}
+
+.right-sandsculpt-heading h3 {
+    text-align: right;
+}
+
+#right-sandsculpt p {
+    line-height: 20px;
+    text-align: right;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c2a280;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url(../images/how-to-sandsculpture-image.webp) no-repeat center center ;
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* History section */
 #history {
     padding-top: 100px;
@@ -321,109 +398,6 @@ iframe.center {
     padding-bottom: 100px;
 }
 
-/* Pricing section */
-#pricing {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-#price {
-    background-image: url(../images/timetable-img.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#price div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 25%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-/* How to sandsculpt section */
-#how-to-sandsculpt {
-    height: 600px;
-    padding-bottom: 100px;
-}
-
-#info {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
-}
-
-#left-sandsculpt {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    
-}
-
-#right-sandsculpt {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-sandsculpt {
-    width: 33%;
-    margin: 0 auto;
-} 
-
-.left-sandsculpt-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-sandsculpt-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#left-sandsculpt p {
-    line-height: 20px;
-    text-align: left;
-}
-
-.right-sandsculpt-heading h3 {
-    text-align: right;
-}
-
-#right-sandsculpt p {
-    line-height: 20px;
-    text-align: right;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #c2a280;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url(../images/how-to-sandsculpture-image.webp) no-repeat center center ;
-    height: 100%;
-    border-radius: 50%;
-}
 
 /* Gallery*/
 #photos {
@@ -440,21 +414,20 @@ iframe.center {
 /* contact section*/
 .form-section {
     clear: both;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url(../images/contact-image.jpg);
+    /*background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");*/
     background-size: cover;
     background-position: center;
     height: 900px;
 }
 
 .contact-form {
-    margin: 100px 10% 0 0;
+    margin: 100px 15% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-   
-   
-    left: 10%;
+    right: -5%;
     padding: 30px;
 }
 
@@ -488,7 +461,7 @@ input:hover {
 }
 
 input[type=submit]{
-    background-color: #c2a280;
+    background-color: white;
     border: none;
     color: #3a3a3a;
     padding: 16px 32px;
@@ -499,7 +472,7 @@ input[type=submit]{
   }
 
 input[type=submit]:hover {
-    background-color: #fafafa;
+    background-color: #c2a280;
 }
 
 /* Footer */
