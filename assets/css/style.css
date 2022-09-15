@@ -414,7 +414,7 @@ iframe.center {
 /* contact section*/
 .form-section {
     clear: both;
-    background: url(../images/contact-image.jpg);
+    background: url(../images/get-involved.webp);
     /*background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");*/
     background-size: cover;
     background-position: center;
@@ -422,18 +422,18 @@ iframe.center {
 }
 
 .contact-form {
-    margin: 100px 15% 0 0;
+    margin: 40px 15% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-    right: -5%;
+    right: -10%;
     padding: 30px;
 }
 
 .contact-form > h2 {
     color: #fafafa;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .text-input {
@@ -604,17 +604,7 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #left-footer, #right footer {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-footer {
-        clear: both;
-        width: 100%;
-        float: left;
-    }
+   
 }
 
 /* for medium screens size from 950px wide and down */
