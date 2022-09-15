@@ -624,6 +624,13 @@ input[type=submit]:hover {
         display: none;
     }
 
+    #timetable > div {
+        width: 100%;
+        clear: both;
+        height: 500px;
+        padding: 0;
+    }
+
     #footer {
         width: 65%;
         height: 1200px;
