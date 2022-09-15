@@ -16,12 +16,17 @@ body {
     color: #3a3a3a;
 }
 
+p {
+    text-align: center;
+}
+
 /* Headings & Logo */
 
 h1, h2 {
     font-family: Bubblegum Sans, sans serif;
     letter-spacing: 3px;
     color: #c2a280;
+    text-align: center;
 }
 
 #logo {
@@ -111,14 +116,26 @@ h1, h2 {
     color: #fff;
 }
 
-/* Intro & map section */
-.intro { 
-    height: 600px;
+/* top banners intro section */
+#castle { 
+    font-size: 700%;
     text-align: center;
-    margin: auto;
-    width: 100%;
+    min-height: 300px;
+    float: right;
+    margin: 0 auto;
+    width: 50%;
     padding-top: 20px;
-    border: 1px solid white;
+}
+     
+#castle i { 
+    color: #c2a280; 
+}
+
+#overview {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: small;
 }
 
 /*#location {
