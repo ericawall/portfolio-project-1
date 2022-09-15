@@ -383,25 +383,9 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
-/* Video */
-#media {
-    text-align: center;
-    margin: 20px auto;
-    font-family: Open Sans, sans-serif;
-    color: #3a3a3a;
-    letter-spacing: 1px;
-    line-height: 25px;
-}
-
-iframe.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 100px;
-}
-
 
 /* Gallery*/
+/* Photos */
 #photos {
    clear: both; 
    line-height: 0;
@@ -411,6 +395,26 @@ iframe.center {
 
 #photos > img {
     width: 100%;
+}
+
+/* Video */
+#media {
+    height: 600px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Open Sans, sans-serif;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+iframe.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
 /* contact section*/
@@ -677,4 +681,13 @@ input[type=submit]:hover {
         padding: 0 20px;
     }
 
+    #photos {
+        column-count: 2;
+    }
+
+    iframe.center {
+        width: 75%;
+        height: 900px;     
+    }
 }
+
