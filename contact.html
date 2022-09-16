@@ -16,7 +16,7 @@
 <!-- Header, logo & nav bar section -->
 <header>
     <a href="home.html">
-        <h1 id="logo">Duncannon Sand Sculpture Festival</h1>
+        <h1 id="logo">Duncannon Sand Sculpture Festival</h1></a>
         <nav>
             <ul id="menu">
                 <li>
@@ -26,15 +26,11 @@
                     <a href="gallery.html" class="active">Gallery</a>
                 </li>
                 <li>
-                    <a href="history.html" class="active">History</a>
-                </li>
-                <li>
                     <a href="contact.html" class="active">Get Involved!</a>
                 </li>
             </ul>
         </nav>
-    </a>
-</header>
+    </header>
 
 <!-- contact form section -->
 <section class="form-section">
@@ -46,13 +42,13 @@
         <form action="https://formdump.codeinstitute.net" method="POST">
             <div>
                 <h4>Full Name</h4>
-                <label id="name-field" placeholder="Your name" for="name-field"></label>
-                <input id="name-field" type="text">
+                <label for="name-field"></label>
+                <input name="full_name" placeholder="Your name" id="name-field" type="text" >
             </div>
             <div>
                 <h4>Email Address</h4>
-                <label id="email-field" placeholder="Your email" for="email-field"></label>
-                <input id="email-field" type="email">
+                <label for="email-field"></label>
+                <input name="email-address" placeholder="Your email" id="email-field" type="email">
             </div>
             <div>
                 <input id="professional-radio" name="interested" value="professional" type="radio">
@@ -64,13 +60,13 @@
                 <input id="volunteer-radio" name="interested" value="volunteer" type="radio">
                     <label for="volunteer-radio">Volunteer</label>
             </div><br>
+        </form>
             <div>
                 <form action="/action_page.php">
                     <input type="file" id="myFile" name="filename"></form>
 
                 <input type="submit" value="Submit">
             </div>
-        </form>
     </div>
 </section>
 
