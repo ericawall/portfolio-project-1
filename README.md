@@ -95,6 +95,10 @@ The site looks best on a larger screen, it does not look as good on a smaller sc
 The site itself is laid out coherently, it allows the user to easily navigate throughout. 
 
 
+#### Fixed Bug/Issue
+
+I had originally had a home page instead of index page, so was having trouble deploying, the readme page was showing instead of the website. I got help from a tutor to correct this issue.
+
 #### Unfixed Bugs/Issues
 I am unable to get the hero image to reduce for smaller screen sizes.
 
